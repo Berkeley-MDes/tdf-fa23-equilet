@@ -15,7 +15,7 @@ I spent time in Rhino3d and was able to generate a multitude of different files 
 
 Initially I broke out the measuring tools that came to mind.
 
-[![all tools](measuring_tools.JPG)]
+![all tools](measuring_tools.JPG)
 
 I eventually ended up using digital calipers that I found in the Makerspace, because I didn't feel like a standard ruler was accurate enough.
 
