@@ -9,6 +9,12 @@ The result was that I cut it out to make sure that it fit my phone.  I had some 
 Some information about my process:
 I spent time in Rhino3d and was able to generate a multitude of different files for phones other than my own.  I experimented with form factors and thought a lot about whether other phones would work within this procedurally generated design.  
 
+Here is a link to some video documentation I made of my cell phone stand getting cut at Jacobs!  :)
+I did have some issues with heat level, which I brought up to one of my instructors.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FoVW6_42l34/0.jpg)](https://www.youtube.com/watch?v=FoVW6_42l34)
+
+
 ---
 
 ### Reflections:
@@ -17,17 +23,23 @@ Initially I broke out the measuring tools that came to mind.
 
 ![all tools](measuring_tools.JPG)
 
+I took measurements of my phone and realized that I was measuring in inches, but that the file requires millimeters.  I measured again and it worked out well.
 I eventually ended up using digital calipers that I found in the Makerspace, because I didn't feel like a standard ruler was accurate enough.
 
 ![measure1](measure1.JPG) ![measure2](measure2.JPG)
 
-I took measurements of my phone and realized that I was measuring in inches, but that the file requires millimeters.  I measured again and it worked out well.
+I was able to locate the UI grasshopper panel by navigating in Rhino3d to the "panels" pane and selecting the grasshopper icon.  I found that I needed to disable it from view before re-enabling.
+
+![gh panel](panels_grasshopper.png)
+
 
 I spent some evaluating the CellPhoneStand_forGrasshopper files and had a few realizations:
 
-1. The .stl file is a product of the parameters in the Grasshopper UI
-2. The model shown in the display is a specific height, but I need not worry about that because I'm overriding this when I enter in new data into the UI
+1. The .stl file is a product of the parameters in the Grasshopper UI, and needs to be exported
+2. The model shown in the display is a specific height, but I need not worry about that because I'm overriding this when I enter in new data into the UI Grasshopper panel
 3. The point cloud representing the field of view is not calculated on the fly, but is a demonstrable as to what sort of considerations a designer would need to be taking into account when 
+
+
 
 ---
 
