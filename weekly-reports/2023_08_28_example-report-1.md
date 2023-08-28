@@ -19,6 +19,8 @@ Initially I broke out the measuring tools that came to mind.
 
 I eventually ended up using digital calipers that I found in the Makerspace, because I didn't feel like a standard ruler was accurate enough.
 
+![measure1](measure1.JPG) ![measure2](measure2.JPG)
+
 I took measurements of my phone and realized that I was measuring in inches, but that the file requires millimeters.  I measured again and it worked out well.
 
 I spent some evaluating the CellPhoneStand_forGrasshopper files and had a few realizations:
