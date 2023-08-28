@@ -13,6 +13,10 @@ I spent time in Rhino3d and was able to generate a multitude of different files 
 
 ### Reflections:
 
+Initially I broke out the measuring tools that came to mind.
+
+[![all tools](measuring_tools.JPG)]
+
 I eventually ended up using digital calipers that I found in the Makerspace, because I didn't feel like a standard ruler was accurate enough.
 
 I took measurements of my phone and realized that I was measuring in inches, but that the file requires millimeters.  I measured again and it worked out well.
