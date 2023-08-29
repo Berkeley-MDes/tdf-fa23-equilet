@@ -39,7 +39,15 @@ I was able to locate the UI grasshopper panel by navigating in Rhino3d to the "p
 
 Here are some shots of my explorations of the CellPhoneStand file:
 
-
+![cps1](cps_1.png)
+![cps2](cps_2.png)
+![cps3](cps_3.png)
+![cps4](cps_4.png)
+![cps5](cps_5.png)
+![cps6](cps_6.png)
+![cps7](cps_7.png)
+![cps8](cps_8.png)
+![cps9](cps_9.png)
 
 I spent some evaluating the CellPhoneStand_forGrasshopper files and had a few realizations:
 
