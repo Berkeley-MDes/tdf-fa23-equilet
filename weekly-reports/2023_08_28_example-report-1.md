@@ -37,6 +37,9 @@ I was able to locate the UI grasshopper panel by navigating in Rhino3d to the "p
 
 ![gh panel](panels_grasshopper.png)
 
+Here are some shots of my explorations of the CellPhoneStand file:
+
+
 
 I spent some evaluating the CellPhoneStand_forGrasshopper files and had a few realizations:
 
