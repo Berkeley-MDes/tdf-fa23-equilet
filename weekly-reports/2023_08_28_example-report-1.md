@@ -9,6 +9,11 @@ The result was that I cut it out to make sure that it fit my phone.  I had some 
 Some information about my process:
 I spent time in Rhino3d and was able to generate a multitude of different files for phones other than my own.  I experimented with form factors and thought a lot about whether other phones would work within this procedurally generated design.  
 
+I did some initial sketching here:
+
+![sketch01](sketch01.JPG)
+![sketch02](sketch02.JPG)
+
 Here is a link to some video documentation I made of my cell phone stand getting cut at Jacobs!  :)
 I did have some issues with heat level, which I brought up to one of my instructors.
 
