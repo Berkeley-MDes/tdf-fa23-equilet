@@ -11,14 +11,14 @@ I spent time in Rhino3d and was able to generate a multitude of different files 
 
 I did some initial sketching here:
 
-![sketch01](sketch01.JPG)
-![sketch02](sketch02.JPG)
+<img width="100%" src="sketch01.JPG"></img><br>
+<img width="100%" src="sketch02.JPG"></img>
 
 Here is a link to some video documentation I made of my cell phone stand getting cut at Jacobs!  :)
 I did have some issues with heat level, which I brought up to one of my instructors.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FoVW6_42l34/0.jpg)](https://www.youtube.com/watch?v=FoVW6_42l34)
 
+<a href="https://www.youtube.com/watch?v=FoVW6_42l34"><img width="100%" src="https://img.youtube.com/vi/FoVW6_42l34/0.jpg"></img></a>
 
 ---
 
