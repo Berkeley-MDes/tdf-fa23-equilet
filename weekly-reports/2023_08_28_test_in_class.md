@@ -3,7 +3,7 @@
 Type some regular text.
 
 Format:
-![this is your image title](this is the link to the image)
+![image title goes here](image url goes here)
 
 1. one
 2. two
