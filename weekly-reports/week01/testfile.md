@@ -1,3 +1,5 @@
 # example of svg include inside of a markdown file
 
-![svg_simple](svg_simple.svg)
+<div style="width: 100%;">
+  <img src="svg_simple.svg" style="width: 100%;" alt="Click to see the source">
+</div>
