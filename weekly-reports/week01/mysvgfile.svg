@@ -9,17 +9,13 @@
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-        }
-        .images {
-            flex: row
+          padding: 10px;
         }
       </style>
 
       <div class="container">
-      	<div class="images">
       		<img src="https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/weekly-reports/cps_1.png"></img>
       		<img src="https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/weekly-reports/cps_2.png"></img>
-      	</div>
       </div>
 
     </div>
