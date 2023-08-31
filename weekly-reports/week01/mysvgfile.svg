@@ -2,19 +2,23 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <style>
-        .container {
-          width: 100%;
-          display: flex;
-          justify-content: space-between;
-          padding: 10px;
-        }
-      </style>
+    <style>
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      img { 
+        width: 50%;
+      padding: 10px;
+      }
+    </style>
 
-      <div class="container">
-      		<img src="https://raw.githubusercontent.com/Berkeley-MDes/tdf-fa23-equilet/main/weekly-reports/cps_1.png"></img>
-      		<img src="https://raw.githubusercontent.com/Berkeley-MDes/tdf-fa23-equilet/main/weekly-reports/cps_2.png"></img>
-      </div>
+    <div class="container">
+      <img src="https://raw.githubusercontent.com/Berkeley-MDes/tdf-fa23-equilet/main/weekly-reports/cps_1.png"></img>
+      <img src="https://raw.githubusercontent.com/Berkeley-MDes/tdf-fa23-equilet/main/weekly-reports/cps_2.png"></img>
+    </div>
 
     </div>
   </foreignObject>
