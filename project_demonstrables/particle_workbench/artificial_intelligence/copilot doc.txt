@@ -1,0 +1,13 @@
+copilot doc
+
+command-enter: open up a window with live-drawn suggestions
+you can select one and it gets filled into your file
+
+go to output and click on "github copilot" to see mroe about what 
+
+option-[ or option-] to scroll through suggestion options
+
+space to get a new suggestions
+
+alt-\ to force a new suggestion
+
