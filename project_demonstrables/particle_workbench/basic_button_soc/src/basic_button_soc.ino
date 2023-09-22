@@ -30,14 +30,15 @@ void loop(void) {
   state = digitalRead(button);
   String state_str = String(state);
 
-  Serial.printf("state: %d\n", state);
   // String state_str = String(state);
   // digitalWrite(ledpin, state); // sets the LED on  
   if(state == 1 && state_was == 0) {
     Particle.publish(be, state_str, PRIVATE);
+    Serial.printf("state: %d\n", state);
   } 
   if(state == 0 && state_was == 1) {
     Particle.publish(be, state_str, PRIVATE);
+    Serial.printf("state: %d\n", state);
   }
 
   state_was = state;
