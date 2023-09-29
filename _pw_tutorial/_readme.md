@@ -58,13 +58,27 @@ We will need a serial monitor to verify that things are working in this tutorial
 
 ---
 
-open a folder containing demo project (include)
+#### Login
 
-choose device os
+Click on `Login` in order to type your username and password info associated with your Particle device.  The prompts will lead you through the process.  This will log you in and allow your device to be recognized as you flash code over USB or WiFi.
 
-choose device type
+#### Creating a Project
 
-enter in device name or id
+Click on `Create a Project`.  This will generate all of the necessary files on disk for you to build a project in VS Code and start using the Workbench system.  You'll note that once you do this, the boiler plate `setup()` and `loop()` functions are bare, as it is expected that you've seen these things before (which is why we made sure about this before commencing!).
+
+_Things to make sure of:_
+
+1. At the bottom of the Workbench screen, choose device os 5.5.0 <div align="center" ><img  src="device_os.png"></img></div>
+
+1. In that same area, choose your device type (make sure it reads `Photon 2 / P2`) <div align="center" ><img src="device_type.png"></img></div>
+
+1. enter in device name or id (this is the name of the device that you created when you initiated in `setup.particle.io`) <div align="center" ><img src="device_name.png"></img></div>
+
+
+#### Command Palette
+
+Although listed first, the command palette is what we'll cover last.  It allows you to execute commands associated with VS Code, and if you click this it will display everything associated with the Particle Workbench.  There is a key command for this as well:  `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`.  You'll note that you can type this key command to move the cursor to the palette and type `Particle: XXXX`, where `XXXX` represents the command in Particle Workbench you would like to execute.  We don't need this to get started, but please keep it in mind as you advance to building and flashing your code here.
+
 
 verify/compile
 
