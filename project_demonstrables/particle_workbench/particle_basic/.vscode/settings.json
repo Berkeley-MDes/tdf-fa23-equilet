@@ -6,5 +6,5 @@
     },
     "particle.firmwareVersion": "5.5.0",
     "particle.targetPlatform": "p2",
-    "particle.targetDevice": "0a10aced202194944a0446b0"
+    "particle.targetDevice": "photon2_jml"
 }

@@ -3,11 +3,11 @@
 /******************************************************/
 
 #include "Particle.h"
-#line 1 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_basic/src/particle_basic.ino"
+#line 1 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_workbench/particle_basic/src/particle_basic.ino"
 void setup();
 void loop();
-#line 1 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_basic/src/particle_basic.ino"
-int led = D7;
+#line 1 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_workbench/particle_basic/src/particle_basic.ino"
+const pin_t led = D7;
 char str[12] = "Hello World";
 
 int counter = 0;
@@ -15,8 +15,7 @@ int counter = 0;
 // setup() runs once, when the device is first turned on.
 void setup() {
   Serial.begin(9600);
-    pinMode(led, OUTPUT);
-
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
