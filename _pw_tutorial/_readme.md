@@ -95,9 +95,11 @@ To do this, follow the steps outlined below:
 
 1. Click on the small grey checkbox located in this menubar. <div align="center"><img src="pw_compile_flash.png" width="75%"></img></div> 
 
+1. If the compilation was successful you will see the following in the Terminal: `*** COMPILED SUCCESSFULLY ***`.  Success!
+
 **Note1:** compilation can take some time.  Please be patient with the process, which is dependant on a number of factors including whether it is the first time you've compiled this code, if you need to download elements, if you are running Particle Workbench on a slower computer, etc.* 
 
-**Note2:** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  If the compilation was successful you will see the following in the `TERMINAL`:  `*** COMPILED SUCCESSFULLY ***`.  Success!
+**Note2:** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  
 
 #### Flashing your code to the Photon 2 
 
@@ -107,9 +109,11 @@ Now that we have compiled our code, we are ready to flash it to our microcontrol
 
 1. Wait for some time 
 
-1. If the flash is successful, you will see the microcontroller's status LED blinking through various colors and associated patterns.  If the flash was successful, you'll see the following in the `TERMINAL`: *** FLASHED SUCCESSFULLY ***`.  More success!  You're done!
+1. If the flash is successful, you will see the microcontroller's status LED blinking through various colors and associated patterns.  If the flash was successful, you'll see the following in the Terminal: `*** FLASHED SUCCESSFULLY ***`.  
 
-*Note that flashing can take some time.  Please be patient with the process, which is dependant on a number of factors including your internet connection speed, your computer's age, whether you are running Particle Workbench on a slower computer, etc.*
+More success!  You're done!
+
+**Note** *that flashing can take some time.  Please be patient with the process, which is dependant on a number of factors including your internet connection speed, your computer's age, whether you are running Particle Workbench on a slower computer, etc.*
 
 ---
 
