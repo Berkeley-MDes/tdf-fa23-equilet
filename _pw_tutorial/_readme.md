@@ -79,7 +79,38 @@ _Things to make sure of:_
 
 Although listed first, the command palette is what we'll cover last.  It allows you to execute commands associated with VS Code, and if you click this it will display everything associated with the Particle Workbench.  There is a key command for this as well:  `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`.  You'll note that you can type this key command to move the cursor to the palette and type `Particle: XXXX`, where `XXXX` represents the command in Particle Workbench you would like to execute.  We don't need this to get started, but please keep it in mind as you advance to building and flashing your code here.
 
+#### Verification, Compilation, Flashing
 
-verify/compile
+To verify and compile our code, we need to click on the light grey checkbox.  It is located in the top-right menubar of the particle workbench, but is _only_ visible if you are selected inside of a PW `.ino` file.  Go back a few steps and either create a new project, or select the project via the VS Code explorer.  
 
-flash
+To do this, follow the steps outlined below:
+
+1. Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: <div align="center" ><img src="explorer.png"></img></div>
+
+1. Once in the explorer, you'll see a number of areas including `OPEN EDITORS`, `PARTICLE_BASIC`, `src`, and `target`.  The one we're interested in is `src`, and stands for _source code_.
+
+1. Click on `src` to expose two files of interest:  `<yourfilename>.cpp` and `<yourfilename>.ino`.  
+
+1. Click on the `.ino` file to display its contents.  You are now in the "building" area of the Particle Workbench.  Note that there is a special menubar that appears at the top-right of the screen.  This contains the buttons you'll need to compile and flash your code.  <div align="center" ><img src="pw_build_menu.png"></img></div>
+
+1. Click on the small grey checkbox located in this menubar. <div align="center"><img src="pw_compile_flash.png" width="75%"></img></div> 
+
+**Note1:** compilation can take some time.  Please be patient with the process, which is dependant on a number of factors including whether it is the first time you've compiled this code, if you need to download elements, if you are running Particle Workbench on a slower computer, etc.* 
+
+**Note2:** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  If the compilation was successful you will see the following in the `TERMINAL`:  `*** COMPILED SUCCESSFULLY ***`.  Success!
+
+#### Flashing your code to the Photon 2 
+
+Now that we have compiled our code, we are ready to flash it to our microcontroller.  This is done by clicking a different button in the menubar, which looks like a lightning bolt.  <div align="center"><img src="pw_compile_flash.png" width="75%"></img></div> 
+
+1. Click the lightning bolt
+
+1. Wait for some time 
+
+1. If the flash is successful, you will see the microcontroller's status LED blinking through various colors and associated patterns.  If the flash was successful, you'll see the following in the `TERMINAL`: *** FLASHED SUCCESSFULLY ***`.  More success!  You're done!
+
+*Note that flashing can take some time.  Please be patient with the process, which is dependant on a number of factors including your internet connection speed, your computer's age, whether you are running Particle Workbench on a slower computer, etc.*
+
+---
+
+At this point you can start to migrate code that you've been working on in the Web IDE over to this platform and experimenting with your new environment, using some of the Particle-specific commands, etc.  There are many things you can do here that you don't have access to in the Web IDE.  Have fun!
