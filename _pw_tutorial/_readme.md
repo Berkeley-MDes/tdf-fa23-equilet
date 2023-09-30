@@ -93,7 +93,7 @@ To do this, follow the steps outlined below:
 
 1. Click on the `.ino` file to display its contents.  You are now in the "building" area of the Particle Workbench.  Note that there is a special menubar that appears at the top-right of the screen.  This contains the buttons you'll need to compile and flash your code.  <div align="left" ><img src="pw_build_menu.png"></img></div>
 
-1. Click on the small grey checkbox located in this menubar. <div align="left"><img src="pw_compile_flash.png" width="75%"></img></div> 
+1. Click on the small grey checkbox located in this menubar. <div align="left" ><img src="pw_build_menu1.png"></img></div>
 
 1. If the compilation was successful you will see the following in the Terminal: `*** COMPILED SUCCESSFULLY ***`.  Success!
 
@@ -103,7 +103,7 @@ To do this, follow the steps outlined below:
 
 #### Flashing your code to the Photon 2 
 
-Now that we have compiled our code, we are ready to flash it to our microcontroller.  This is done by clicking a different button in the menubar, which looks like a lightning bolt.  <div align="left"><img src="pw_compile_flash.png" width="75%"></img></div> 
+Now that we have compiled our code, we are ready to flash it to our microcontroller.  This is done by clicking a different button in the menubar, which looks like a lightning bolt. <div align="left" ><img src="pw_build_menu2.png"></img></div>
 
 1. Click the lightning bolt
 
