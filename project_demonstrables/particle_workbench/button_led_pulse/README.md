@@ -22,9 +22,9 @@ We will use some standard components to perform this exercise.  The action of yo
 
 The circuit is powered over 3.3V from the microcontroller, which can be supplied via a usb power adapter, a lipo battery, or your computer's usb port.
 
-button/led top | button fritzing
+button/led top | button/led fritzing
 ---|---
-![button/led top](buttonled_top.JPG) | ![button fritzing](button_led_pulse.png)
+![button/led top](buttonled_top.JPG) | ![button/led fritzing](button_led_pulse.png)
 
 ### Steps to recreate circuit:
 
