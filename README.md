@@ -1,6 +1,6 @@
 # Jeff Lubow's TDF Example GitHub repository
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+![IMAGE](https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/301972571_439019128247559_1065571783451776023_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JyWH27WNO2AAX-1mcTS&_nc_ht=scontent-hou1-1.xx&oh=00_AfBjMW3Yw4TShjYZaRF_82MfLxIa-Nj-QoxnmvlAykvZfw&oe=6533A61E)
 
 If you’re new to GitHub, you can think of this as a shared file space (like a Google Drive folder, or a like a USB drive that’s hosted online.) 
 
