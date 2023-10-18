@@ -29,7 +29,7 @@ The circuit is powered over 3.3V from the microcontroller, which can be supplied
 
 pot/oled top | pot/oled fritzing
 ---|---
-![pot/oled top](pot_to_oled02.JPG) | ![pot/oled fritzing](potentiometer_oled.png)
+![pot/oled top](pot_to_oled02.jpg) | ![pot/oled fritzing](potentiometer_oled.png)
 
 ### Steps to recreate circuit:
 
