@@ -23,14 +23,16 @@ bool buttonval = false;
 
 // setup() runs once, when the device is first turned on.
 void setup() {
-  interrupts();
+  interrupts(); //enable interrupts
   pinMode(ledPin, OUTPUT); // initialize the LED pin as an output:
   pinMode(buttonPin, INPUT_PULLDOWN); // initialize the pushbutton pin as an input:
-  attachInterrupt(buttonPin, buttonPressed, RISING);
+  attachInterrupt(buttonPin, buttonPressed, RISING); //attach an interrupt to the button pin, based on the rising edge
   // Put initialization like pinMode and begin functions here.
 
 }
 
+//this function is called whenever the button is pressed
+//this happens separately from the main loop
 void buttonPressed() {
     pulserate = pulserate - 50;
     

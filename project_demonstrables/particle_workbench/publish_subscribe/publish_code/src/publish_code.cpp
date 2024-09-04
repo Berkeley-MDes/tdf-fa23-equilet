@@ -1,9 +1,5 @@
-/******************************************************/
-//       THIS IS A GENERATED FILE - DO NOT EDIT       //
-/******************************************************/
-
 #include "Particle.h"
-#line 1 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_workbench/pub_sub_pub/src/publish_code.ino"
+
 /*
  * Project pub_sub_var_func
  * Description:
@@ -11,20 +7,24 @@
  * Date:
  */
 
+
+// setup() runs once, when the device is first turned on.
 void setup();
 void loop();
-#line 8 "/Users/jml/Documents/programming/git_repositories/tdf-fa23-equilet/project_demonstrables/particle_workbench/pub_sub_pub/src/publish_code.ino"
-double floatval = 0.0;
-#define POTPIN = A0;
-// setup() runs once, when the device is first turned on.
+
+int random_value = 0;
+
 void setup() {
-    pinMode(A0, INPUT);
+Particle.variable("random_value", random_value);
 }
 
-// loop() runs over and over again, as quickly as it can execute.
 void loop() {
-    floatval = analogRead(A0);
-    Particle.publish("photoLed", String(floatval), PRIVATE);
-    Serial.printf("the published value: %f\n", floatval);
+    //floatval = analogRead(A0);
+    random_value = random(0, 255);
+
+  
+    //Particle.publish("random_value", String(random_value), PRIVATE);
+    
+    //Serial.printf("the published value: %d\n", random_value);
     delay(5000);
 }
