@@ -15,7 +15,7 @@ The goal is to get the Mac address of the device you are planning to use for you
 #### Register MAC Address with UC Berkeley for usage with IoT network
 
 1. Log in to the UCB [wifi access portal](https://portal.berkeley.edu/people/wifi_access) (requires CalNet authentication)
-1. Scroll down to [Berkeley-IoT Wi-Fi Network Devices] 
+1. Scroll down to "Berkeley-IoT Wi-Fi Network Devices" 
 1. Click on "Manage devices"
 1. Click on "Create New"
 1. Enter the Mac Address that you copied in the first step
