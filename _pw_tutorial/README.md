@@ -68,7 +68,7 @@ Click on `Create a Project`.  This will generate all of the necessary files on d
 
 _Things to make sure of:_
 
-1. At the bottom of the Workbench screen, choose device os 5.5.0 <div align="left" ><img  src="device_os.png"></img></div>
+1. At the bottom of the Workbench screen, choose device os 5.8.0 <div align="left" ><img  src="device_os.png"></img></div>
 
 1. In that same area, choose your device type (make sure it reads `Photon 2 / P2`) <div align="left" ><img src="device_type.png"></img></div>
 
