@@ -4,7 +4,7 @@
 
 1. [set up a new Particle.io account](https://particle.io/signup) with your information and have a login. 
 1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with said account (note that the [Chrome browser](https://www.google.com/intl/en_uk/chrome/) is required).
-1. get your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the [addition of your device to the IoT network](https://portal.berkeley.edu/people/wifi_access).  If you have not, please do so based on the instructions found in [this tutorial](https://github.com/loopstick/Photon2_Tutorial/#2-configure-wi-fi-do-this-at-home)
+1. get your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the [addition of your device to the IoT network](https://portal.berkeley.edu/people/wifi_access).  If you have not, please do so based on the instructions found in [this tutorial](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_iot_network_tutorial/README.md)
 1. compiled and flashed code to your *Photon 2* device, have experimented with making modifications in the Particle Web IDE, and have begun breadboarding with follow-along tutorials.  If you have not experimented with this, please go through the tutorial found [here](https://github.com/loopstick/Photon2_Tutorial/#7-hello-world---is-this-thing--on).
 
 ...if you've completed the tasks outlined above, please proceed!
