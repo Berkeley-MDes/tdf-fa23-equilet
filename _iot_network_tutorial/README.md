@@ -8,7 +8,7 @@ The goal is to get the Mac address of the device you are planning to use for you
 1. connect your photon2 to the computer via the USB port
 1. connect the micro-usb plug to the photon2 
 1. open up vs code
-1. inside of vs code, open a terminal window
+1. inside of vs code, open a terminal window (Terminal -> New Terminal)
 1. type `particle serial mac`
 1. copy the contents that are returned in the terminal for the upcoming steps 
 
@@ -26,5 +26,5 @@ The goal is to get the Mac address of the device you are planning to use for you
 
 1. Using a [Chrome Browser](https://www.google.com/chrome) window, navigate to [this link](https://docs.particle.io/tools/developer-tools/configure-wi-fi/)
 1. enter your wifi credentials
-- Wi-Fi network name: `Berkeley-IoT`
-- Wi-Fi password: `<the IoT device password>`
+  - Wi-Fi network name: `Berkeley-IoT`
+  - Wi-Fi password: `<the IoT device password>`
