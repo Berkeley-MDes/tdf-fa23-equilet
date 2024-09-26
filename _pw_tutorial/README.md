@@ -70,9 +70,9 @@ _Things to make sure of:_
 
 1. At the bottom of the Workbench screen, choose device os 5.8.0 <div align="left" ><img  src="device_os.png"></img></div>
 
-1. In that same area, choose your device type (make sure it reads `Photon 2 / P2`) <div align="left" ><img src="device_type.png"></img></div>
+1. In that same area(where it says `Argon`), choose your device type (make sure it reads `Photon 2 / P2`) <div align="left" ><img src="device_type.png"></img></div>
 
-1. enter in device name or id (this is the name of the device that you created when you initiated in `setup.particle.io`) <div align="left" ><img src="device_name.png"></img></div>
+1. In the area where it says `<select device>`, enter in device name or id (this is the name of the device that you created when you initiated in `setup.particle.io`) <div align="left" ><img src="device_name.png"></img></div>
 
 
 #### Command Palette
