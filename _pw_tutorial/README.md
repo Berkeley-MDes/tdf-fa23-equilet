@@ -134,7 +134,8 @@ To do this, follow the steps outlined below:
   - You are now in the "coding" area of the Particle Workbench project.
     - This is the main file we'll concern ourselves with when writing firmware code to flash the photon2 with.  
     - Note that there is a special menubar that appears at the top-right of the screen.  
-      - This contains the buttons you'll need to compile and flash your code.  <div align="left" ><img src="pw_build_menu.png"></img></div>
+      - This contains the buttons you'll need to compile and flash your code.  
+      <div align="left" ><img src="pw_build_menu.png"></img></div>
 
 1. Click on the small grey checkbox located in this menubar. <div align="left" ><img src="pw_build_menu1.png"></img></div>
 
