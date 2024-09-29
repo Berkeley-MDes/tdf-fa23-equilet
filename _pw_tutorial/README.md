@@ -160,5 +160,3 @@ More success!  You're done!
 **Note** *that flashing can take some time.  Please be patient with the process, which is dependant on a number of factors including your internet connection speed, your computer's age, whether you are running Particle Workbench on a slower computer, etc.*
 
 ---
-
-At this point you can start to migrate code that you've been working on in the Web IDE over to this platform and experimenting with your new environment, using some of the Particle-specific commands, etc.  There are many things you can do here that you don't have access to in the Web IDE.  Have fun!
