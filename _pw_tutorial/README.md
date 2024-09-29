@@ -5,10 +5,18 @@
 1. Open your Photon 2 box and take the device out.  
 1. If you are connecting the photon2 to the breadboard, loosen the anti-static foam from the pins, and press the device into the breadboard to straddle the two sets of rails.
 1. Connect the device to your computer via the micro-USB port.
-1. [set up a new Particle.io account](https://particle.io/signup) with your information and have a login. 
+
+#### MAC Address
+
+We are going to take a series of steps to get you set up with your new _Photon 2_ device.  This includes getting your device on the Berkeley IoT network, setting up a new Particle account that you can use for your work, and configuring your Particle dashboard.  Let's get into it! 
+
+- We need to get your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the addition of your device to the IoT network.  The tutorial that covers that process can be found [here](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_iot_network_tutorial/README.md).  Please complete all instructions, and come back here when you have safely copied the password for your device!
+
+#### Particle.io Account setup
+
+1. [set up a new Particle.io account](https://particle.io/signup) with your information, and copy your login credentials somewhere safe.
 1. [set up a new device in your Particle.io console](https://setup.particle.io/)
 1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with said account (note that the [Chrome browser](https://www.google.com/chrome/) is required).
-1. gotten your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the [addition of your device to the IoT network](https://portal.berkeley.edu/people/wifi_access).  If you have not, please do so based on the instructions found in [this tutorial](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_iot_network_tutorial/README.md)
 
 ...if you've completed the tasks outlined above, please proceed!
 
