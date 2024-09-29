@@ -3,7 +3,7 @@
 #### Opening the box
 
 1. Open your Photon 2 box and take the device out.  
-1. Loosen the anti-static foam from the pins.
+1. If you are connecting the photon2 to the breadboard, loosen the anti-static foam from the pins, and press the device into the breadboard to straddle the two sets of rails.
 1. Connect the device to your computer via the micro-USB port.
 1. [set up a new Particle.io account](https://particle.io/signup) with your information and have a login. 
 1. [set up a new device in your Particle.io console](https://setup.particle.io/)
@@ -30,7 +30,7 @@ Let's install Microsoft's Visual Studio Code (VS Code) integrated development en
 
 1. Navigate to [the Visual Studio Code download page](https://code.visualstudio.com/Download) and download the software pertaining to your operating system.
 
-1. Open the software application.  You'll notice that there is a sidebar on the left that displays options for selection.  This is the *Extensions* pane, meant for extending the Visual Studio code IDE.  It looks like this: <div align="left"><img src="extensions_pane.png"></img></div>
+1. Open the software application.  You'll notice that there is a sidebar on the left that displays options for selection.  This is the _Extensions_ pane, meant for extending the Visual Studio code IDE.  It looks like this: <div align="left"><img src="extensions_pane.png"></img></div>
 
 1. Click on this icon to expose the Extensions pane.  You'll note that your cursor pops into a field where you can search.
 
@@ -68,7 +68,7 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 1. Click on the extension to reveal the main Workbench page. <div align="left"><img src="workbench_main.png"></img></div>
 
-1. ***Note*** that there are three **Getting Started** sections of this area.  "Launch Command Palette", "Login", and "Create a Project".  We'll go through each in succession to build and flash our first project, including some extra details that may not be covered by default.
+1. ***Note:*** There are three **Getting Started** sections of this area.  "Launch Command Palette", "Login", and "Create a Project".  We'll go through each in succession to build and flash our first project, including some extra details that may not be covered by default.
 
 1. Now that you are in the workbench, 
 
@@ -96,7 +96,7 @@ _Things to make sure of:_
     - plug the micro-usb cable into the photon's usb port
     - plug the other end of the cable to your computer
 
-1. You will notice that an LED illuminates.  This is a multi-colored LED that relays status when the device is powered.  It  will tell you whether your 
+1. You will notice that an LED illuminates.  This is a multi-colored LED that relays status when the device is powered.  It  will tell you whether your photon2 has a particular issue, if it is connected to a wifi network, and many other modes.  You can view all the modes [here](https://docs.particle.io/troubleshooting/led/).
 
 ***Note:*** The usb cable you use is going to depend on your computer that you connect to the photon2 with.  If you have a Type A port, you'll need a type a to micro cable.  If you have a Type C port, you'll need a type C to micro cable, etc.
 
@@ -141,9 +141,9 @@ To do this, follow the steps outlined below:
 1. If the compilation was successful you will see the following in the Terminal: `*** COMPILED SUCCESSFULLY ***`.  
   - Success!
 
-**Note:** compilation can take some time.  Please be patient with the process, which is dependant on a number of factors including whether it is the first time you've compiled this code, if you need to download elements, if you are running Particle Workbench on a slower computer, etc.* 
+***Note:*** compilation can take some time.  Please be patient with the process, which is dependant on a number of factors including whether it is the first time you've compiled this code, if you need to download elements, if you are running Particle Workbench on a slower computer, etc. 
 
-**Note:** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  
+***Note:*** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  
 
 #### Flashing your code to the Photon 2 
 
@@ -156,7 +156,5 @@ Now that we have compiled our code, we are ready to flash it to our microcontrol
 1. If the flash is successful, you will see the microcontroller's status LED blinking through various colors and associated patterns.  If the flash was successful, you'll see the following in the Terminal: `*** FLASHED SUCCESSFULLY ***`.  
 
 More success!  You're done!
-
-**Note** *that flashing can take some time.  Please be patient with the process, which is dependant on a number of factors including your internet connection speed, your computer's age, whether you are running Particle Workbench on a slower computer, etc.*
 
 ---
