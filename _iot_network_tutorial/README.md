@@ -29,3 +29,5 @@ The goal is to get the Mac address of the device you are planning to use for you
 1. enter your wifi credentials
   - Wi-Fi network name: `Berkeley-IoT`
   - Wi-Fi password: `<the IoT device password>`
+
+Once you have completed this last step, return to the [main setup tutorial](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_pw_tutorial/README.md#particleio-account-setup) for next steps.
