@@ -118,7 +118,7 @@ To do this, follow the steps outlined below:
 
 1. Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: <div align="left" ><img src="explorer.png"></img></div>
 
-1. Once in the explorer, you'll see a number of areas including 
+1. Once in the explorer, you'll see a number of items including 
   - `.github`
   - `.vscode`
   - `src`
